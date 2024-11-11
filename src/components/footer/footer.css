@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(13, 71, 49);
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    bottom: 0;
+    
+}
+.text{
+    width: 35%;
+    color: white;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.first-nav , .second-nav , .third-nav{
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    line-height: 1.9;
+    font-size: medium;
+    padding: 20px;
+
+}
